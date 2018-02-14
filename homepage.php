@@ -18,6 +18,7 @@
 
                           <div class="title">
                             <h1 id="arcTitle">Archive</h1>
+														<div id="slogan"> Discover the research that went into retelling the tale of the Red Dragon</div>
                             <div id="swirl1">
                               <?php include 'swirl.php'; ?>
                             </div>

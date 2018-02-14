@@ -259,9 +259,9 @@ nav ol {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-2246 {
+/*2246 {
   border: 0;
-}
+}*/
 
 /**
  * Correct overflow displayed oddly in IE 9.
@@ -504,7 +504,7 @@ FONT FACE (IN YOUR FACE)
 /*____________________________________ Fonts  __________________________*/
   @font-face {
     /*font-family: 'KallosITC-Book';*/
-    font-family: :'Kallos_Light';
+    font-family:'Kallos-Light';
     src: url('../fonts/Kallos-Light/Kallos-Light.ttf'),
      url('../fonts/Kallos-Light/KallosITC-Book.woff') format('woff'),
          url('../fonts/Kallos-Light/KallosITC-Book.svg#KallosITC-Book') format('svg');
@@ -2243,7 +2243,7 @@ be set to display none.
   .wp-prev-next,
   .respond-form,
   nav {
-    display: none; } }
+    display: none; }
 
 
 /*---------------------------------------------------------Sidebar---------------------------------------------------------*/
@@ -2327,6 +2327,7 @@ be set to display none.
 
 .title{
   font-family: 'Zapfino';
+
 	display: grid;
   grid-template-areas:". arctitle ."
                       "swirl1 sbc swirl2";
@@ -2336,10 +2337,20 @@ be set to display none.
 #arcTitle{
   grid-area: arctitle;
   font-family: 'Zapfino';
+  color: #000000;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #9A0000;
+   text-shadow: 2px 2px #000000;
+}
+#slogan{
+    font-family: 'Neuton-Italic';
+    font-size: 10px;
+    color:black;
 }
 #sbc{
   grid-area: sbc;
 font-family: 'KallosITC-Medium';
+color:black;
 }
 
 #swirl1 .SwirlSvg #Artboard #Page-1 path, #swirl2 .SwirlSvg #Artboard #Page-1 path{
@@ -2362,8 +2373,8 @@ font-family: 'KallosITC-Medium';
 .icon-categories{
 	width: 87vw;
 	height: 90vh;
-  position: fixed;
-  margin-left: 13vw;
+/*  position: fixed;*/
+/*  margin-left: 13vw;*/
 }
 
 .catico{
@@ -2399,13 +2410,14 @@ a:hover .catico p{
 }
 /* Stylizing the Homepage Stops */
 .category-england catico{
-/*  max-width: 100px;*/
+
 }
 .category-sierraLeone catico{
 
 }
 
 .category-rioDeLaPlata catico{
+
 
 }
 
